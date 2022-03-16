@@ -1,0 +1,29 @@
+.app {
+}
+
+.x-border-layout-ct {
+    background-color: white;
+}
+
+/* fix for grid hscroll when rows are tall and push hscroll off bottom of screen. Force it on */
+
+.x-grid-body.x-panel-body {
+    overflow-x: auto;
+}
+
+
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #C0C0C0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
